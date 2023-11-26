@@ -14,7 +14,8 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "electro": "^2.1.1",
-    "electron": "^27.1.2"
+    "electron": "^27.1.2",
+    "electron-packager": "^17.1.2"
   },
   "dependencies": {
     "minecraft-protocol": "^1.26.5",
