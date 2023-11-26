@@ -2,6 +2,8 @@
 
 ArduCraft is a Node.js and Electron-based software that enables the connection between Arduino and the Minecraft game. This application facilitates interaction between the physical world of Arduino and the virtual environment of Minecraft, opening up new possibilities for automation and hardware device integration into your gaming world.
 
+![Screenshot 2023-11-26 224309](https://github.com/filoconnesso/Arducraft/assets/63156681/8f6d3024-f115-4eb6-88a9-e05c62d7dc5f)
+
 ## Key Features
 
 - **Arduino-Minecraft Connection:** ArduCraft streamlines communication between Arduino and Minecraft, allowing control over physical devices in the game.
@@ -87,6 +89,14 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 11. Specify the port used for the shared game.
 12. Specify the server version (1.19 or 1.20).
 13. Give your bot a name (e.g., ArduCraft).
+14. The bot will log in to your game and display a welcome message in chat when it's ready.
+15. By typing the message "ledon" or "ledoff" in chat, the builtin LED of your Arduino should turn on and off according to the command!
+
+![Screenshot 2023-11-26 225251](https://github.com/filoconnesso/Arducraft/assets/63156681/bda26aab-a79c-4b4a-8563-74752d750046)
+
+![Screenshot 2023-11-26 225326](https://github.com/filoconnesso/Arducraft/assets/63156681/5639b208-f70f-4f61-bc20-753f67973322)
+
+**Enjoy!**
 
 ## Contributions
 
@@ -95,6 +105,8 @@ We welcome contributions and improvements! If you have suggestions, bug reports,
 ## License
 
 This project is distributed under the [MIT License](LICENSE).
+
+This software bases its operation using mineflayer. [Mineflayer](https://github.com/PrismarineJS/mineflayer)
 
 ---
 
