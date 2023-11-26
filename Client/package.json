@@ -1,0 +1,24 @@
+{
+  "name": "arducraft-gui",
+  "version": "1.0.0",
+  "description": "Arducraft",
+  "main": "arducraft-gui.js",
+  "scripts": {
+    "start-all": "electron arducraft-gui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\t"
+  },
+  "author": "Filo Connesso",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electro": "^2.1.1",
+    "electron": "^27.1.2"
+  },
+  "dependencies": {
+    "minecraft-protocol": "^1.26.5",
+    "mineflayer": "^4.0.0",
+    "serialport": "^10.4.0"
+  }
+}

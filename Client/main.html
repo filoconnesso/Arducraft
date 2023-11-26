@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Arducraft Connect Client</title>
+</head>
+
+<body>
+  <div class="logo"></div>
+  <div class="window" id="portlistwindow">
+     <div class="window-title">SELECT SERIAL PORT :</div>
+     <div class="list" id="portlist"></div>
+  </div>
+  <div class="window" id="connectedwindow">
+    <div class="sub-content">
+      <div id="connectionmsg">RUN ARDUCRAFT...</div>
+      <button class="mini-button" id="disconnect">CLOSE</button>
+    </div>
+  </div>
+  <div class="container">
+    <input class="inputtext" type="text" id="comport" spellcheck="false" placeholder="SELECT SERIAL PORT..." readonly></input>
+    <br />
+    <input class="inputtext" type="text" id="server" spellcheck="false" placeholder="SERVER"></input>
+    <br />
+    <input class="inputtext" type="text" id="serverport" spellcheck="false" placeholder="SERVER PORT"></input>
+    <br />
+    <input class="inputtext" type="text" id="serverversion" spellcheck="false" placeholder="SERVER VERSION"></input>
+    <br />
+    <input class="inputtext" type="text" id="botname" spellcheck="false" placeholder="BOT NAME"></input>
+    <br /><br />
+    <button class="button" id="connect">CONNECT</button>
+  </div>
+  <div class="footer">Filo Connesso &copy; 2022 - v.1.0.3</div>
+  <script src="functions.js"></script>
+</body>
+
+</html>

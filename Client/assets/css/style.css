@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('../fonts/minecraft.ttf');
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    font-family: minecraft;
+}
+
+.logo {
+    width: 80%;
+    height: 130px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    position: absolute;
+    top: 7px;
+    left:80px;
+}
+
+.footer {
+    font-size: 10pt;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 98%;
+}
+
+.container {
+    position: absolute;
+    top: 180px;
+    padding-left: 190px;
+}
+
+.button {
+    height: 40px;
+    width: 405px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: url(../images/button_standard.png) no-repeat;
+    font-family: minecraft;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.button:hover {
+    background: url(../images/button_hover.png) no-repeat;
+    color: yellow;
+}
+
+
+.medium-button {
+    height: 40px;
+    width: 320px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: url(../images/button_standard.png) no-repeat;
+    font-family: minecraft;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.medium-button:hover {
+    background: url(../images/button_hover.png) no-repeat;
+    color: yellow;
+}
+
+.mini-button {
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: url(../images/button_standard.png) no-repeat;
+    font-family: minecraft;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.mini-button:hover {
+    background: url(../images/button_hover.png) no-repeat;
+    color: yellow;
+}
+
+.inputtext {
+    height: 40px;
+    width: 395px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: minecraft;
+    line-height: 26px;
+    padding: 2px;
+    background-color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16pt;
+    outline: none;
+}
+
+.window {
+    background-image: url(../images/cobbleback.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 403px;
+    height: 400px;
+    z-index: 1;
+    margin-left: 190px;
+    margin-top: 100px;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sub-content {
+    margin-top: 40%;
+    margin-left: 25%;
+}
+
+.list {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.window-title {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 350px;
+    position: fixed;
+    background-color: #737373;
+    background-image: url(../images/cobbleback.png);
+}
+
+*::-webkit-scrollbar {
+    width: 27px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #aaaaaa;
+    opacity: 0;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #737373;
+    border-radius: 0px;
+    border: 3px outset #948f8f;
+}
+
+#disconnect {
+    display: none;
+}
