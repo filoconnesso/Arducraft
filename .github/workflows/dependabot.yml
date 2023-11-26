@@ -1,0 +1,18 @@
+version: 2
+registries:
+  example:
+    type: npm-registry
+    url: https://example.com
+    token: ${{secrets.NPM_TOKEN}}
+updates:
+  - package-ecosystem: "npm"
+    directory: "/src/npm-project"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "lodash"
+        # For Lodash, ignore all updates
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
+    registries:
+      - example
