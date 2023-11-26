@@ -2,12 +2,17 @@
 
 ArduCraft is a Node.js and Electron-based software that enables the connection between Arduino and the Minecraft game. This application facilitates interaction between the physical world of Arduino and the virtual environment of Minecraft, opening up new possibilities for automation and hardware device integration into your gaming world.
 
+The combined use of Minecraft command blocks and ArduCraft presents unique possibilities. Minecraft command blocks allow for the creation of complex mechanisms and automations within the game, while ArduCraft links these virtual elements to the physical world through Arduino. This integration enables the incorporation of real-world hardware devices into the game dynamics, opening new frontiers in automation, STEM learning, and the immersive experience of Minecraft.
+
+Achieve Arduino-Minecraft integration effortlessly with ArduCraf no mods required. Unleash creativity and STEM learning in the vanilla game environment.
+
 ![Screenshot 2023-11-26 224309](https://github.com/filoconnesso/Arducraft/assets/63156681/8f6d3024-f115-4eb6-88a9-e05c62d7dc5f)
 
 ## Key Features
 
 - **Arduino-Minecraft Connection:** ArduCraft streamlines communication between Arduino and Minecraft, allowing control over physical devices in the game.
 - **Automation:** Automate actions in Minecraft based on inputs from Arduino. For example, you can control doors, lights, or other elements in the game using physical sensors connected to Arduino.
+- **STEM** ArduCraft merges Arduino and Minecraft, fostering hands-on STEM learning. It integrates coding, electronics, and automation, making STEM concepts tangible. Students collaborate, solve problems, and explore real-world applications, enhancing coding proficiency in an engaging, gamified environment.
 
 ## System Requirements
 
