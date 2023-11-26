@@ -97,6 +97,10 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 14. The bot will log in to your game and display a welcome message in chat when it's ready.
 15. By typing the message "ledon" or "ledoff" in chat, the builtin LED of your Arduino should turn on and off according to the command!
 
+![Screenshot 2023-11-26 235640](https://github.com/filoconnesso/Arducraft/assets/63156681/bd6913b9-6bb2-4f3a-856b-b204b99d3247)
+
+![Screenshot 2023-11-26 235653](https://github.com/filoconnesso/Arducraft/assets/63156681/e99aaed1-97c4-4fa6-9fad-fba2b1a3cc54)
+
 ![Screenshot 2023-11-26 225251](https://github.com/filoconnesso/Arducraft/assets/63156681/bda26aab-a79c-4b4a-8563-74752d750046)
 
 ![Screenshot 2023-11-26 225326](https://github.com/filoconnesso/Arducraft/assets/63156681/5639b208-f70f-4f61-bc20-753f67973322)
