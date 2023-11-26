@@ -2,9 +2,9 @@
   "name": "arducraft-gui",
   "version": "1.0.0",
   "description": "Arducraft",
-  "main": "arducraft-gui.js",
+  "main": "arducraft.js",
   "scripts": {
-    "start-all": "electron arducraft-gui"
+    "start-all": "electron arducraft"
   },
   "repository": {
     "type": "git",
