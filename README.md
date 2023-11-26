@@ -83,7 +83,7 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 
 1. Connect Arduino to your computer.
 2. Launch the Arduino IDE.
-3. Install the "Arduino Library" from the Library Manager.
+3. Install "Arducraft" from the Library Manager.
 4. Open one of the examples available in the library, for example, "LedDemo."
 5. Upload the code to your Arduino.
 6. Start Minecraft version 1.19 or 1.20.
