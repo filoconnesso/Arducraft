@@ -16,13 +16,13 @@
     "electro": "^2.1.1",
     "electron": "^27.1.2",
     "electron-packager": "^17.1.2",
-    "axios": ">=1.6.0"
+    "axios": ">=1.6.2"
   },
   "dependencies": {
     "minecraft-protocol": "^1.26.5",
     "mineflayer": "^4.0.0",
     "serialport": "^10.4.0",
-    "axios": ">=1.6.0"
+    "axios": ">=1.6.2"
   }
 
 }
