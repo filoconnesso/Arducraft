@@ -83,7 +83,7 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 
 1. Connect Arduino to your computer.
 2. Launch the Arduino IDE.
-3. Install the "Arduino Library" from the Library Manager.
+3. Install "Arducraft" from the Library Manager.
 4. Open one of the examples available in the library, for example, "LedDemo."
 5. Upload the code to your Arduino.
 6. Start Minecraft version 1.19 or 1.20.
@@ -96,6 +96,10 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 13. Give your bot a name (e.g., ArduCraft).
 14. The bot will log in to your game and display a welcome message in chat when it's ready.
 15. By typing the message "ledon" or "ledoff" in chat, the builtin LED of your Arduino should turn on and off according to the command!
+
+![Screenshot 2023-11-26 235640](https://github.com/filoconnesso/Arducraft/assets/63156681/bd6913b9-6bb2-4f3a-856b-b204b99d3247)
+
+![Screenshot 2023-11-26 235653](https://github.com/filoconnesso/Arducraft/assets/63156681/e99aaed1-97c4-4fa6-9fad-fba2b1a3cc54)
 
 ![Screenshot 2023-11-26 225251](https://github.com/filoconnesso/Arducraft/assets/63156681/bda26aab-a79c-4b4a-8563-74752d750046)
 
