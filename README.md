@@ -101,9 +101,12 @@ electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --prune=
 
 ![Screenshot 2023-11-26 235653](https://github.com/filoconnesso/Arducraft/assets/63156681/e99aaed1-97c4-4fa6-9fad-fba2b1a3cc54)
 
-![Screenshot 2023-11-26 225251](https://github.com/filoconnesso/Arducraft/assets/63156681/bda26aab-a79c-4b4a-8563-74752d750046)
+![Screenshot 2023-11-27 111202](https://github.com/filoconnesso/Arducraft/assets/63156681/3dd629c5-c176-46ef-a444-90901162f528)
 
-![Screenshot 2023-11-26 225326](https://github.com/filoconnesso/Arducraft/assets/63156681/5639b208-f70f-4f61-bc20-753f67973322)
+![Screenshot 2023-11-27 111550](https://github.com/filoconnesso/Arducraft/assets/63156681/85494153-2e09-4531-a887-19dd506339c1)
+
+![Screenshot 2023-11-27 111533](https://github.com/filoconnesso/Arducraft/assets/63156681/f1a84322-22fa-47bc-b0d5-ed8dd684dced)
+
 
 **Enjoy!**
 
